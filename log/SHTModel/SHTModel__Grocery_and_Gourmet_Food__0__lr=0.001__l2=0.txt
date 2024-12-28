@@ -1,0 +1,34 @@
+INFO:root:Namespace(model_name='SHTModel', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-13 16:28:33 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ edgeSampRate       | 0.1                 
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gcn_hops           | 2                   
+ gpu                | 0                   
+ hyperNum           | 128                 
+ l2                 | 0                   
+ latdim             | 32                  
+ lr                 | 0.001               
+ main_metric        |                     
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ ssl1_reg           | 1.0                 
+ ssl2_reg           | 1.0                 
+ temp               | 1.0                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Reading data from "data/", dataset = "Grocery_and_Gourmet_Food" 
